@@ -1,0 +1,36 @@
+#heading{
+    color: blue;
+    text-align: center;
+}
+#img1{
+    height: 100px;
+    width: 100px;
+    margin-top: 0px;
+    text-align: center;
+}
+body{
+    background-color: coral;
+    text-align: center;
+}
+span{
+  font-size: 30px;
+  text-align: center;
+}
+#camera , #result{
+  border: 2px dashed black;
+  width: 350px;
+  height: 300px;
+}
+#result_gesture_name1{
+  color: black;
+  text-align: center;
+}
+.gesture_name
+{
+  font-size: 40px;
+  text-align: center;
+}
+.emoji{
+  font-size:48px;
+  text-align: center;
+}

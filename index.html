@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <title>Project 106</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<script src="//unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+      <center>
+        <br>
+        <div><h1 id="heading">Hand Gesture Website</h3></div>
+        <br>
+        <div>
+            <label>Show your hand, and AI will tell you the gesture!</label>
+            <span>
+              &#128077;
+            </span>
+            <span>
+              &#128078;
+            </span>
+            <span>
+              &#128076;
+            </span>
+            <span>
+              &#9996;
+            </span>
+        </div>
+        <br>
+        <div class="col-md-4 col-sm-12 col-xs-12">
+            <label id="eleven">Webcam - </label>
+          <div id="camera"></div>
+          <br><br>
+          <button class="btn btn-success" onclick="snapshot()" id="take_snap">Take Snapshot</button>
+        </div>
+        <br>
+        <div class="col-md-4 col-sm-12 col-xs-12">
+          <label>Prediction - </label>
+          <p id="result_gesture_name" class="gesture_name"></p>
+          <p id="result_gesture" class="gesture"></p>
+          <br>
+          <br>
+          </div>
+        <div class="col-md-4 col-sm-12 col-xs-12">
+          <label>Result</label>
+          <div id="result">
+          </div>
+          <br>
+          <br>
+          <button onclick="rediction()" class="btn btn-success">Predict the Hand Gesture</button>
+          <br>
+        </div>
+      </center>
+  <script src="main.js"></script>
+    </body>
+  </html>
